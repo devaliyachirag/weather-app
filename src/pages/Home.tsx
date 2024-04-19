@@ -7,7 +7,7 @@ const Home = () => {
   const [city, setCity] = useState<string>("");
   const [data, setData] = useState<any>("");
   const [date, setDate] = useState<string>(
-    dayjs(new Date()).format("dddd Dd-MMMM ")
+    dayjs(new Date()).format("dddd DD-MMMM ")
   );
   const [weather, setWeather] = useState({
     loading: false,
