@@ -1,0 +1,15 @@
+.search{
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #fff;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 20px 12px 40px;
+    transition: width .4s ease-in-out;
+    display: block;
+    margin: 10px auto;
+}
